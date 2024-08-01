@@ -13,7 +13,9 @@
       vscode
       pkgs.discord
       pkgs.jetbrains-toolbox
-    #  thunderbird
+      pkgs.prismlauncher
+      temurin-bin
+      temurin-jre-bin-17
     ];
   };
 }
