@@ -7,15 +7,17 @@
     description = "Aqua";
     extraGroups = [ "networkmanager" "wheel" "docker" "libvirtd" ];
     packages = with pkgs; [
-      kdePackages.kate
       pkgs.google-chrome
+
       telegram-desktop
-      vscode
       pkgs.discord
+
+      vscode
       pkgs.jetbrains-toolbox
+
       pkgs.prismlauncher
-      temurin-bin
-      temurin-jre-bin-17
+      
+      obs-studio
     ];
   };
 }

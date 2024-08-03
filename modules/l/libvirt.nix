@@ -8,4 +8,5 @@
     virtualisation.libvirtd.qemu.ovmf.enable = true;
     virtualisation.libvirtd.qemu.ovmf.packages = [];
 
+    programs.virt-manager.enable = true;
 }
