@@ -11,6 +11,7 @@
   boot.extraModprobeConfig = ''
   # AMD KVM Nested Virtualization
   options kvm_amd nested=1
+  options kvm ignore_msrs=1 report_ignored_msrs=0
   
   # Realtek RTW89
   options rtw89_pci disable_aspm_l1=y disable_aspm_l1ss=y
